@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot Universitario</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="chatbox">
@@ -35,7 +35,7 @@
             addMessage(userMessage, 'user');
             userInput.value = '';
 
-            const response = await fetch('http://127.0.0.1:5000/get_response', {
+            const response = await fetch('/get_response', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: userMessage })
