@@ -1,0 +1,118 @@
+{
+    "intents": [
+        {
+            "tag": "becas_requisitos",
+            "patterns": [
+                "¿Cuáles son los requisitos para aplicar a una beca?",
+                "¿Qué necesito para solicitar una beca?",
+                "Requisitos para becas"
+            ],
+            "responses": [
+                "Los requisitos para las becas dependen del tipo de beca que elijas. Puedes consultarlos en el siguiente enlace: [link de becas]."
+            ]
+        },
+        {
+            "tag": "becas_fecha",
+            "patterns": [
+                "¿Hasta cuándo puedo solicitar una beca?",
+                "¿Cuál es la fecha límite para las becas?",
+                "Fechas para aplicar a las becas"
+            ],
+            "responses": [
+                "La fecha límite para solicitar becas varía según la convocatoria. Te recomiendo revisar el calendario oficial aquí: [link de calendario]."
+            ]
+        },
+        {
+            "tag": "becas_info",
+            "patterns": [
+                "¿Hasta cuándo puedo solicitar una beca?",
+                "¿Cuál es la fecha límite para las becas?",
+                "Fechas para aplicar a las becas"
+            ],
+            "responses": [
+                "La fecha límite para solicitar becas varía según la convocatoria. Te recomiendo revisar el calendario oficial aquí: [link de calendario]."
+            ]
+        },
+        {
+            "tag": "dudas_horarios",
+            "patterns": [
+                "¿Cuáles son los horarios de atención de la universidad?",
+                "¿A qué hora abre la oficina de bienestar?",
+                "Horario de atención"
+            ],
+            "responses": [
+                "Los horarios de atención son de lunes a viernes de 8:00 a.m. a 6:00 p.m. y los sábados de 9:00 a.m. a 12:00 p.m."
+            ]
+        }, 
+        {
+            "tag": "dudas_generales",
+            "patterns": [
+                "No entiendo cómo realizar un trámite",
+                "Tengo dudas generales sobre la universidad",
+                "¿Dónde puedo encontrar ayuda?"
+            ],
+            "responses": [
+                "Puedes encontrar información general en la sección de preguntas frecuentes de nuestro sitio web. Si tienes dudas específicas, no dudes en consultarme."
+            ]
+        }, 
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Buenos días",
+                "Buenas tardes",
+                "¿Qué tal?",
+                "Hey",
+                "Hola, ¿cómo estás?"
+            ],
+            "responses": [
+                "¡Hola! ¿En qué puedo ayudarte hoy?",
+                "¡Hola! Bienvenido, dime, ¿cómo puedo asistirte?",
+                "¡Hola! Estoy aquí para responder tus preguntas, ¿en qué te puedo ayudar?"
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "Adiós",
+                "Hasta luego",
+                "Gracias, eso sería todo",
+                "Nos vemos",
+                "Hasta pronto"
+            ],
+            "responses": [
+                "¡Adiós! Que tengas un excelente día.",
+                "Gracias por contactarte. Nos vemos pronto.",
+                "¡Hasta luego! Espero haberte ayudado."
+            ]
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Te lo agradezco",
+                "Eres de gran ayuda"
+            ],
+            "responses": [
+                "¡Con gusto! Estoy aquí para ayudarte.",
+                "Es un placer poder asistirte.",
+                "¡De nada! No dudes en preguntarme si necesitas algo más."
+            ]
+        },
+        {
+            "tag": "no_entendido",
+            "patterns": [
+                "¿Qué?",
+                "No entiendo",
+                "No tiene sentido",
+                "Explícate mejor"
+            ],
+            "responses": [
+                "Lo siento, no entendí tu mensaje. ¿Podrías reformularlo?",
+                "Perdona, no te entendí. Intenta preguntarme de otra forma.",
+                "Lo siento, aún estoy aprendiendo. Por favor, vuelve a intentarlo."
+            ]
+        }
+    ]
+}

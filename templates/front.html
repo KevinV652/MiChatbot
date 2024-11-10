@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Universitario</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div id="chatbox">
+      <div id="chat-header">Chatbot Universitario</div>
+      <div id="messages"></div>
+      <div id="chat-input">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Escribe tu mensaje aquí..."
+        />
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+    </div>
+
+    <script>
+      const messagesDiv = document.getElementById("messages");
+
+      function addMessage(content, sender) {
+        const message = document.createElement("div");
+        message.classList.add(
+          "message",
+          sender === "user" ? "user-message" : "bot-message"
+        );
+        message.textContent = content;
+        messagesDiv.appendChild(message);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      }
+
+      async function sendMessage() {
+        const userInput = document.getElementById("user-input");
+        const userMessage = userInput.value;
+        if (!userMessage) return;
+
+        addMessage(userMessage, "user");
+        userInput.value = "";
+
+        const response = await fetch("/get_response", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: userMessage }),
+        });
+        const data = await response.json();
+        addMessage(data.response, "bot");
+      }
+    </script>
+  </body>
+</html>
