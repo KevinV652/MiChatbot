@@ -9,11 +9,13 @@ from nltk.stem import WordNetLemmatizer #Para pasar las palabras a su forma raí
 #Para crear la red neuronal
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
-from keras.optimizers import SGD
+from keras.optimizers import SGD, Adam
+from keras.callbacks import EarlyStopping
 
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('intents.json', encoding='utf-8').read())
+
 
 nltk.download('punkt_tab')
 nltk.download('wordnet')
@@ -64,16 +66,17 @@ train_y = np.array(train_y)
 
 #Creamos la red neuronal
 model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), name="inp_layer", activation='relu'))
+model.add(Dense(256, input_shape=(len(train_x[0]),), name="inp_layer", activation='relu'))  # Incrementado a 256
 model.add(Dropout(0.5, name="hidden_layer1"))
-model.add(Dense(64, name="hidden_layer2", activation='relu'))
+model.add(Dense(128, name="hidden_layer2", activation='relu'))  # Incrementado a 128
 model.add(Dropout(0.5, name="hidden_layer3"))
 model.add(Dense(len(train_y[0]), name="output_layer", activation='softmax'))
 
 #Creamos el optimizador y lo compilamos
-sgd = SGD(learning_rate=0.001, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy', optimizer = sgd, metrics = ['accuracy'])
+adam = Adam(learning_rate=0.001)
+model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accuracy'])
 
 #Entrenamos el modelo y lo guardamos
-model.fit(np.array(train_x), np.array(train_y), epochs=100, batch_size=5, verbose=1)
+early_stop = EarlyStopping(monitor='loss', patience=10, restore_best_weights=True)
+model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=16, verbose=1, callbacks=[early_stop])
 model.save("chatbot_model.h5")

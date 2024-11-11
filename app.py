@@ -1,31 +1,21 @@
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
-from fastapi.templating import Jinja2Templates
-from pydantic import BaseModel
-from fastapi import Request
-from fastapi.staticfiles import StaticFiles
+from flask import Flask, request, jsonify, render_template
 import chatbot
 
-app = FastAPI()
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
-# Configura la carpeta de plantillas
-templates = Jinja2Templates(directory="templates")
+# Cargamos el modelo y los datos al iniciar el servidor
+chatbot.cargar_modelo()
 
-# Ruta para servir la página principal (front.html)
-@app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request):
-    return templates.TemplateResponse("front.html", {"request": request})
+@app.route('/')
+def home():
+    return render_template('main.html')
 
-# Ruta para obtener respuesta del chatbot
-class Message(BaseModel):
-    message: str
-
-# Servir archivos estáticos desde la carpeta "static"
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
-@app.post("/get_response")
-def get_response(message: Message):
-    user_message = message.message
+@app.route('/get_response', methods=['POST'])
+def get_response():
+    data = request.get_json()
+    user_message = data.get('message', '')
     bot_response = chatbot.respuesta(user_message)
-    return {"response": bot_response}
+    return jsonify({'response': bot_response})
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3245, debug=True)

@@ -8,7 +8,67 @@
                 "Requisitos para becas"
             ],
             "responses": [
-                "Los requisitos para las becas dependen del tipo de beca que elijas. Puedes consultarlos en el siguiente enlace: [link de becas]."
+                "Los requisitos para las becas dependen del tipo de beca que elijas. Puedes consultarlos en el siguiente enlace: https://unab.edu.co/becas/pregrado/."
+            ]
+        },
+        {
+            "tag": "becas_requisitos_mencionCarlos",
+            "patterns": [
+              "Cuales son los requisitos para aplicar a la beca Carlos Gomez Albarracin",
+              "Cómo puedo postularme para la beca Carlos Gomez Albarracin",
+              "Qué se necesita para la beca de Carlos Gomez Albarracin",
+              "Requisitos para la beca de Carlos Gomez Albarracin"
+            ],
+            "responses": [
+              "Se otorga en cualquier programa de pregrado profesional o tecnológico al bachiller del Instituto Caldas que obtiene esta distinción concedida por el Comité de Promoción y Evaluación del colegio, los requisito son: Primera vez:\n\nPresentar carta de solicitud de beca dirigida al Rector de la Universidad.\nAdjuntar copia de la Mención ‘Carlos Gómez Albarracín’.\nUna vez aprobada la beca, diligenciar el formato “Registro para becarios o beneficiarios de descuentos” y firmar la carta de aceptación de beca.\nRenovación:\n\nMantener un Promedio General Acumulado (PGA) igual o superior a 4.20."
+            ]
+        },
+        {
+            "tag": "becas_pregrado",
+            "patterns": [
+              "Qué becas hay disponibles en la Universidad para los pregrados",
+              "Qué opciones de becas tiene la universidad para pregrado",
+              "Cuáles son las becas que puedo solicitar en pregrado",
+              "Existe alguna beca para estudiantes de pregrado"
+            ],
+            "responses": [
+              "Hay diversas becas disponibles en la Universidad para pregrados, entre las que encontramos la beca Mención mejor Bachiller Caldista (100%), Mención Carlos Gomez Albarracin (100%), Mejor puntaje de Admisión. Más información la vas a poder encontrar en el siguiente Link: https://unab.edu.co/becas/pregrado/ además, puedes encontrar el fondo de becas Rafael Ardila Duarte, del cual podrás encontrar información en el siguiente link: https://unab.edu.co/donaciones/fondo-de-becas-rafaelardiladuarte/"
+            ]
+        },
+        {
+            "tag": "becas_posgrado",
+            "patterns": [
+              "Qué becas hay disponibles en la universidad para Alos posgrados",
+              "Existen becas para posgrado en la universidad",
+              "Qué opciones de becas tengo si estudio un posgrado",
+              "Qué apoyo financiero hay para estudiantes de posgrado"
+            ],
+            "responses": [
+              "Hay diversas becas disponibles en la Universidad para Posgrados, entre las que encontramos la beca por distinción académica (50%), pruebas saber pro (100% - 50% - 25%), Monitor Consultor Jurídico (30%), entre otros. Puedes consultar los requisitos y más información en el siguiente link: https://unab.edu.co/becas/pregrado/"
+            ]
+        },
+        {
+            "tag": "becas_requisitos_bachillerCalditas",
+            "patterns": [
+              "Cuales son los requisitos para aplicar a la beca de Mencion Bachiller Caldista",
+              "Qué necesito para postularme a la beca de Mencion Bachiller Caldista",
+              "Cómo puedo aplicar a la beca de Mejor Bachiller Caldista",
+              "Qué se requiere para obtener la beca de Mejor Bachiller Caldista"
+            ],
+            "responses": [
+              "Los requisitos para aplicar a la beca de Mencion Bachiller Caldista son los siguientes Presentar carta de solicitud de beca dirigida al Rector de la Universidad.\nAdjuntar copia de la distinción: “Mejor Bachiller Caldista”.\nUna vez aprobada la beca, diligenciar el formato “Registro para becarios o beneficiarios de descuentos” y firmar la carta de aceptación de beca.\nRenovación:\n\nMantener un Promedio General Acumulado (PGA) igual o superior a 4.20."
+            ]
+        },
+        {
+            "tag": "becas_requisitos_puntajeAdmi",
+            "patterns": [
+              "Cuales son los requisitos para aplicar a la beca de Mejor Puntaje de Admisión",
+              "Cómo se otorgan las becas por mejor puntaje de admisión",
+              "Qué necesito para obtener la beca de Mejor Puntaje de Admisión",
+              "Puedo aplicar a una beca por puntaje de admisión alto"
+            ],
+            "responses": [
+              "Se otorga beca a los dos admitidos que obtengan el mejor puntaje de admisión (por encima de 70 puntos) en cada programa de pregrado profesional o tecnológico, en cualquier modalidad, ofrecido en la UNAB. Esta beca no requiere solicitud expresa por parte del admitido. Para otorgar la beca se generará un informe de admitidos en el que refleja el puntaje de admisión de cada uno de ellos, con corte al día anterior al que se reúne el Comité de Becas, cuya fecha es publicada en el cronograma académico. En el comité se eligen los estudiantes con los dos mejores puntajes de admisión.\n\nPrimera vez:\n\nUna vez aprobada la beca, diligenciar el formato “Registro para becarios o beneficiarios de descuentos” y firmar la carta de aceptación de beca.\nRenovación:\n\nMantener un Promedio General Acumulado (PGA) igual o superior a 4.20."
             ]
         },
         {
@@ -19,7 +79,7 @@
                 "Fechas para aplicar a las becas"
             ],
             "responses": [
-                "La fecha límite para solicitar becas varía según la convocatoria. Te recomiendo revisar el calendario oficial aquí: [link de calendario]."
+                "La fecha límite para solicitar becas varía según la convocatoria. Te recomiendo estar pendiente de nuestros canales de comunicación para enterarte. Si deseas más información sobre esto, puedes comunicarte a becas@unab.edu.co o al PBX (57) (607) 6436111 ext. 835 – 877"
             ]
         },
         {
@@ -113,6 +173,486 @@
                 "Perdona, no te entendí. Intenta preguntarme de otra forma.",
                 "Lo siento, aún estoy aprendiendo. Por favor, vuelve a intentarlo."
             ]
-        }
+        },
+        {
+            "tag": "fechas_general",
+            "patterns": [
+                "Donde puedo encontrar las fechas importantes",
+                "¿En qué sitio están publicadas las fechas importantes?",
+                "¿Dónde consulto el calendario de fechas relevantes de la universidad?"
+            ],
+            "responses": [
+                "Lo siento, no entendí tu mensaje. ¿Podrías reformularlo?",
+                "Perdona, no te entendí. Intenta preguntarme de otra forma.",
+                "Lo siento, aún estoy aprendiendo. Por favor, vuelve a intentarlo."
+            ]
+        },
+        {
+            "tag": "bienestar_ubicacion",
+            "patterns": [
+                "Donde se encuentra Bienestar Universitario??",
+                "¿En qué lugar está ubicada el área de Bienestar Universitario?",
+                "¿Dónde puedo localizar la oficina de Bienestar Universitario?"
+            ],
+            "responses": [
+                "Lo siento, no entendí tu mensaje. ¿Podrías reformularlo?",
+                "Perdona, no te entendí. Intenta preguntarme de otra forma.",
+                "Lo siento, aún estoy aprendiendo. Por favor, vuelve a intentarlo."
+            ]
+        },
+        {
+            "tag": "becas_empleados_tiempo_completo",
+            "patterns": [
+                "¿Cuáles son los requisitos para la beca de empleados a tiempo completo?",
+                "¿Qué se necesita para aplicar a la beca de empleados a tiempo completo?",
+                "¿Puedo solicitar la beca si soy empleado de tiempo completo?",
+                "¿Cuáles son las condiciones para renovar la beca de empleados de tiempo completo?"
+            ],
+            "responses": [
+                "Para empleados UNAB de tiempo completo o medio tiempo, los requisitos son:\n\nPrimera vez:\n- Tener mínimo un año de servicio en la Universidad.\n- Carta al Rector solicitando el beneficio.\n- Completar el proceso de plan de vida y carrera en Gestión Humana.\n- Diligenciar el formato de solicitud y firmar la carta de aceptación de beca.\n\nRenovación:\n- Mantener vinculación vigente con la Universidad.\n- Promedio General Acumulado (PGA) igual o superior a 3.80."
+            ]
+        },
+        {
+            "tag": "becas_familiares_empleados",
+            "patterns": [
+                "¿Qué requisitos tienen las becas para familiares de empleados?",
+                "¿Cómo aplica la beca para cónyuge e hijos de empleados?",
+                "¿Cuáles son las condiciones para los familiares de empleados?",
+                "¿Qué se necesita para la renovación de la beca para familiares de empleados?"
+            ],
+            "responses": [
+                "Para cónyuge e hijos de empleados UNAB, los requisitos son:\n\nPrimera vez:\n- El empleado debe tener mínimo un año de servicio en la Universidad.\n- Carta al Rector solicitando la beca.\n- Adjuntar registro civil de nacimiento (para hijos) o acta de matrimonio reciente (para cónyuge).\n- Diligenciar el formato de solicitud y firmar la carta de aceptación de beca.\n\nRenovación:\n- Mantener vinculación del empleado con la Universidad.\n- El familiar beneficiario debe tener un Promedio General Acumulado (PGA) igual o superior a 3.80."
+            ]
+        },
+        {
+            "tag": "becas_docentes_hora_catedra",
+            "patterns": [
+                "¿Qué requisitos hay para la beca de docentes hora cátedra?",
+                "¿Cómo puedo aplicar a la beca de docentes hora cátedra?",
+                "¿Cuáles son las condiciones para renovar la beca de docentes hora cátedra?",
+                "¿Los docentes hora cátedra tienen acceso a becas?"
+            ],
+            "responses": [
+                "Los docentes UNAB hora cátedra pueden acceder a esta beca cumpliendo los siguientes requisitos:\n\nPrimera vez:\n- Tener mínimo un año de servicio en la Universidad.\n- Carta al Rector solicitando el beneficio.\n- Completar el proceso de plan de vida y carrera en Gestión Humana.\n- Diligenciar el formato de solicitud y firmar la carta de aceptación de beca.\n\nRenovación:\n- Mantener vinculación vigente como docente hora cátedra.\n- Promedio General Acumulado (PGA) igual o superior a 3.80."
+            ]
+        },
+        {
+            "tag": "descuentos_carrera_simultanea",
+            "patterns": [
+                "¿Cómo funciona el descuento por carrera simultánea?",
+                "¿Qué necesito para aplicar al descuento de carrera simultánea?",
+                "¿Cuáles son los requisitos para la renovación del descuento por carrera simultánea?",
+                "¿Es posible obtener un descuento por estudiar dos carreras al mismo tiempo?"
+            ],
+            "responses": [
+                "El descuento por carrera simultánea es del 50% en el programa con menor valor de crédito. Requisitos:\n\nPrimera vez:\n- Promedio General Acumulado (PGA) igual o superior a 3.50 en el primer programa.\n- Matrícula académica activa en el primer programa.\n- Ser admitido en el segundo programa como 'Carrera Simultánea'.\n- Diligenciar y remitir el formato de solicitud a Impulsa UNAB.\n\nRenovación:\n- Mantener matrícula activa en ambos programas.\n- Promedio General Acumulado (PGA) igual o superior a 3.5.\n- Diligenciar y remitir el formato de solicitud a Impulsa UNAB."
+            ]
+        },
+        {
+            "tag": "descuentos_sisben",
+            "patterns": [
+                "¿Cómo se aplica el descuento del SISBEN?",
+                "¿Qué requisitos tiene el descuento SISBEN?",
+                "¿El descuento del SISBEN aplica para pregrados?",
+                "¿Qué se necesita para renovar el descuento del SISBEN?"
+            ],
+            "responses": [
+                "El descuento SISBEN aplica para admitidos a programas de tecnologías en modalidad virtual. Requisitos:\n\nPrimera vez:\n- Adjuntar SISBEN actualizado.\n- Diligenciar el formato de aceptación de descuento.\n\nRenovación:\n- Mantener SISBEN vigente.\n- Promedio General Acumulado (PGA) igual o superior a 3.80."
+            ]
+        },
+        {
+            "tag": "descuento_graduados_unab",
+            "patterns": [
+                "¿Qué descuento tienen los graduados UNAB en posgrados?",
+                "¿Cómo aplica el descuento para graduados en especializaciones?",
+                "¿Cuál es el porcentaje de descuento para maestrías?",
+                "¿Qué debo hacer para solicitar el descuento de graduados UNAB?"
+            ],
+            "responses": [
+                "Los graduados UNAB tienen:\n\n- 15% de descuento en especializaciones propias de la Universidad, excepto especializaciones médico-quirúrgicas.\n- 5% de descuento en maestrías propias de la Universidad.\n\nPara solicitarlo:\nPrimera vez:\n- Notificar la condición de graduado UNAB al correo becas@unab.edu.co.\nRenovación:\n- El descuento se renueva automáticamente."
+            ]
+        },
+        {
+            "tag": "descuento_graduados_aseunab",
+            "patterns": [
+                "¿Cómo aplica el descuento para graduados afiliados a ASEUNAB?",
+                "¿Qué requisitos tiene el descuento ASEUNAB?",
+                "¿Puedo combinar el descuento de graduados con ASEUNAB?",
+                "¿Qué debo presentar para acceder al descuento ASEUNAB?"
+            ],
+            "responses": [
+                "Los graduados UNAB afiliados a ASEUNAB reciben un 2% adicional sobre el descuento de graduados UNAB para especializaciones y maestrías propias de la Universidad, excepto especializaciones médico-quirúrgicas y doctorados.\n\nRequisitos:\nPrimera vez:\n- Adjuntar copia del documento que lo acredite como afiliado activo a ASEUNAB.\nRenovación:\n- Este descuento se renueva automáticamente, sujeto a la vigencia del convenio."
+            ]
+        },
+        {
+            "tag": "descuento_familiar",
+            "patterns": [
+                "¿Qué descuento hay para familiares de estudiantes o graduados UNAB?",
+                "¿Cómo funciona el descuento para familiares?",
+                "¿Qué debo presentar para solicitar el descuento familiar?",
+                "¿Aplica el descuento familiar para posgrados?"
+            ],
+            "responses": [
+                "El descuento familiar es del 15% y aplica para programas de pregrado y posgrado propios de la UNAB, excepto doctorados y especializaciones médico-quirúrgicas.\n\nRequisitos:\n- Para padres, hermanos o hijos: Copia del Registro Civil de Nacimiento.\n- Para cónyuge: Acta de Matrimonio con expedición no mayor a 60 días."
+            ]
+        },
+        {
+            "tag": "descuento_grupo_familiar",
+            "patterns": [
+                "¿Cómo funciona el descuento para grupo familiar?",
+                "¿Qué requisitos hay para el descuento de grupo familiar?",
+                "¿Qué porcentaje de descuento hay para grupo familiar?",
+                "¿Aplica el descuento grupal para posgrados?"
+            ],
+            "responses": [
+                "El descuento para grupo familiar es del 10% y aplica cuando hay al menos tres miembros en primer grado de consanguinidad matriculados en programas propios de la UNAB, excepto maestrías y especializaciones médico-quirúrgicas.\n\nRequisitos:\nPrimera vez:\n- Copia del Registro Civil de Nacimiento o Acta de Matrimonio.\n- Matrícula activa de todos los miembros.\n- Diligenciar el formato de solicitud de descuento y enviarlo a Impulsa UNAB.\nRenovación:\n- Cada miembro debe mantener su matrícula activa.\n- Diligenciar nuevamente el formato de descuento."
+            ]
+        },
+        {
+            "tag": "beca_distincion_academica",
+            "patterns": [
+                "¿Qué beca puedo obtener con una distinción académica?",
+                "¿Aplica una beca por Cum Laude o Summa Cum Laude?",
+                "¿Qué porcentaje de descuento da la beca por distinción académica?",
+                "¿Cuáles son los requisitos para la beca de distinción académica?"
+            ],
+            "responses": [
+                "La beca de distinción académica ofrece un 50% de descuento para graduados UNAB con las menciones Cum Laude, Magna Cum Laude o Summa Cum Laude, en programas de especialización o maestría propias de la Universidad, excepto especializaciones médico-quirúrgicas.\n\nRequisitos:\n- Solicitar la beca al Rector de la Universidad.\n- Adjuntar la certificación de la mención académica.\nNota: Esta beca puede usarse una única vez."
+            ]
+        },
+        {
+            "tag": "beca_pruebas_saber_pro",
+            "patterns": [
+                "¿Qué beca puedo obtener por puntajes altos en Saber Pro?",
+                "¿Cuánto cubre la beca por puntaje nacional en Saber Pro?",
+                "¿Qué requisitos hay para la beca Saber Pro?",
+                "¿Cuánto tiempo tengo para usar la beca por Saber Pro?"
+            ],
+            "responses": [
+                "La beca por puntajes altos en Saber Pro otorga:\n- 100% o 50% en especializaciones propias de la UNAB.\n- 50% o 25% en maestrías propias de la UNAB.\n\nRequisitos:\n- Solicitar la beca al Rector de la Universidad.\n- Adjuntar la comunicación oficial del Ministerio de Educación que certifique el reconocimiento.\nNota: Este beneficio puede utilizarse hasta dos años después de obtener la distinción."
+            ]
+        },
+        {
+            "tag": "beca_monitor_consultorio_juridico",
+            "patterns": [
+                "¿Qué beca hay para monitores del Consultorio Jurídico?",
+                "¿Cómo aplica la beca para egresados de Derecho?",
+                "¿Qué debo presentar para la beca de Consultorio Jurídico?",
+                "¿Puedo usar esta beca en cualquier especialización?"
+            ],
+            "responses": [
+                "La beca Monitor Consultorio Jurídico ofrece un 30% de descuento para graduados de Derecho que hayan cursado Consultorio Jurídico IV en la UNAB, y deseen una especialización propia de la Universidad (excepto médico-quirúrgicas).\n\nRequisitos:\n- Solicitar la beca al Rector de la Universidad.\n- Presentar constancia de la realización del Consultorio Jurídico IV, expedida por el Director del Consultorio Jurídico UNAB."
+            ]
+        },
+        {
+            "tag": "bienestar_universitario",
+            "patterns": [
+                "¿Qué es el Bienestar Universitario?",
+                "¿Qué servicios ofrece Bienestar Universitario",
+                "¿Cómo puedo acceder a Bienestar Universitario?"
+            ],
+            "responses": [
+                "El Bienestar Universitario de la UNAB busca mejorar la calidad de vida de la comunidad universitaria mediante programas como: Acompañamiento académico, salud integral, expresiones culturales y artísticas, deporte y recreación, y apoyo institucional.",
+                "Bienestar Universitario ofrece talleres, actividades deportivas, asesorías psicológicas, eventos culturales y mucho más. ¿En qué te gustaría participar?"
+            ]
+        },
+        {
+            "tag": "talleres_bienestar",
+            "patterns": [
+                "¿Qué talleres hay en Bienestar Universitario?",
+                "¿Puedo inscribirme a un taller?",
+                "¿Qué talleres ofrecen para la salud emocional?"
+            ],
+            "responses": [
+                "Ofrecemos talleres de yoga, inteligencia emocional, habilidades sociales, deporte, y más. ¡Anímate a participar!",
+                "Los talleres disponibles incluyen yoga para tu salud física y mental, habilidades sociales para mejorar relaciones, y deportes para mantenerte activo. ¿Te interesa alguno en particular?",
+                "Nuestros talleres de inteligencia emocional están diseñados para ayudarte a comprender y regular tus emociones. Puedes inscribirte fácilmente a través de nuestra página web."
+
+            ]
+        },
+        {
+            "tag": "actividades_culturales",
+            "patterns": [
+                "¿Qué actividades culturales hay en la UNAB?",
+                "¿Cuándo son los eventos culturales?",
+                "¿Ofrecen clases de arte o música?"
+            ],
+            "responses": [
+                "En noviembre, destaca la presentación del Grupo de Danzas UNAB y Barrio Ballet el 22 de noviembre a las 5 PM en la plazoleta del campus Jardín.",
+                "Tenemos grupos culturales y actividades como clases de danza, música y pintura para que desarrolles tus habilidades artísticas. Consulta las fechas específicas en nuestro calendario.",
+                "Nuestras actividades culturales fomentan el desarrollo artístico. ¿Te gustaría saber más sobre un taller en particular?"
+
+            ]
+        },
+        {
+            "tag": "actividades_deportivas",
+            "patterns": [
+                "¿Qué deportes puedo practicar?",
+                "¿Cuáles son las actividades deportivas?",
+                "¿Hay clases de yoga o ejercicio?"
+            ],
+            "responses": [
+                "Ofrecemos talleres de yoga, actividades cardiovasculares y otros deportes para promover la salud física. ¡Te esperamos en el campus!",
+                "Consulta nuestro Programa Estar en Forma para mantenerte activo y saludable. ¿Te gustaría información sobre las actividades en noviembre?",
+                "Sí, contamos con clases de yoga y talleres para reducir el estrés. ¿Te interesa inscribirte?"
+
+            ]
+        },
+        {
+            "tag": "fechas_bienestar",
+            "patterns": [
+                "Que eventos de Bienestar hay en Noviembre",
+                "¿Hay actividades este mes?",
+                "¿Qué eventos hay esta semana?"
+            ],
+            "responses": [
+                "El Día de Relajación con masajes Shiatsu será el 13 y 14 de noviembre de 10 AM a 12 M en el salón de artes plásticas del campus CSU.Además, el 22 de noviembre tendremos un evento de danzas en la plazoleta principal del campus Jardín."
+            ]
+        },
+        {
+            "tag": "apoyo_psicologico",
+            "patterns": [
+                "¿Ofrecen apoyo psicológico en la universidad?",
+                "¿Puedo agendar una consulta médica?",
+                "Necesito orientación emocional, ¿cómo puedo acceder?"
+            ],
+            "responses": [
+                "Sí, contamos con asesorías psicológicas y orientación médica. Puedes agendar una cita a través de Bienestar Universitario.",
+                "Ofrecemos apoyo emocional y talleres de inteligencia emocional. Escríbenos para ayudarte a programar una consulta.",
+                "Nuestros servicios de orientación médica y psicológica están disponibles para toda la comunidad universitaria."
+            ]
+        },
+        {
+            "tag": "cambiar_clave_miportalu",
+            "patterns": [
+                "¿Cómo puedo cambiar mi clave de MiPortalU?",
+                "Quiero cambiar mi contraseña en MiPortalU",
+                "Cambio de clave en MiPortalU"
+            ],
+            "responses": [
+                "Puedes hacerlo en la sección de perfil de MiPortalU. Ingresa con tus datos de estudiante a este enlace: https://miportalu.unab.edu.co/modulos/inicio/perfil.php"
+            ]
+        },
+        {
+            "tag": "simulacion_horario",
+            "patterns": [
+                "¿Dónde puedo hacer una simulación de mi horario?",
+                "Quiero simular mi horario para el próximo semestre",
+                "¿Cómo simulo mi horario?"
+            ],
+            "responses": [
+                "Puedes simular tu horario en MiPortalU > Servicios para estudiantes > Proyección de cursos. Ingresa aquí con tus datos de estudiante: https://miportalu.unab.edu.co/modulos/proyeccion/"
+            ]
+        },
+        {
+            "tag": "horas_libres",
+            "patterns": [
+                "¿Dónde puedo ver cuántas horas libres llevo?",
+                "Quiero saber mis horas libres acumuladas",
+                "Consultar horas libres en MiPortalU"
+            ],
+            "responses": [
+                "Encuentra tus horas libres en MiPortalU > Servicios para estudiantes > Proyección de cursos > Cumplimiento Curricular. Haz clic en 'Consultar' para obtener la información: https://miportalu.unab.edu.co/modulos/proyeccion/"
+            ]
+        },
+        {
+            "tag": "reserva_espacios",
+            "patterns": [
+                "¿Dónde puedo reservar espacios deportivos?",
+                "Reservar canchas en MiPortalU",
+                "¿Cómo aparto un espacio deportivo?"
+            ],
+            "responses": [
+                "Haz tus reservas en MiPortalU > Servicios Electrónicos > Espacios deportivos y culturales. Ingresa aquí con tus datos de estudiante: https://miportalu.unab.edu.co/modulos/ReservaEspaciosdeportivosyculturales/"
+            ]
+        },
+        {
+            "tag": "horario_gimnasio",
+            "patterns": [
+                "¿Cuál es el horario del gimnasio?",
+                "Horario de funcionamiento del gimnasio",
+                "¿A qué horas está abierto el gimnasio?"
+            ],
+            "responses": [
+                "El gimnasio funciona de 6:00 AM a 7:00 PM en jornada continua. Haz tus reservas aquí: https://calendly.com/calendly-713/gimnasio"
+            ]
+        },
+        {
+            "tag": "horario_bus",
+            "patterns": [
+                "¿Cuál es el horario del bus de la ruta 2?",
+                "Horarios del transporte UNAB ruta 2",
+                "¿A qué horas pasa el bus ruta 2?"
+            ],
+            "responses": [
+                "La ruta 2 del bus UNAB opera en estos horarios: \n- 5:15 AM a 9:30 AM \n- 11:00 AM a 3:00 PM \n- 5:30 PM a 9:00 PM."
+            ]
+        },
+        {
+            "tag": "horario_semestre",
+            "patterns": [
+                "¿Dónde puedo ver mi horario del semestre?",
+                "Quiero consultar mi horario de clases",
+                "Horario de semestre en Cosmos"
+            ],
+            "responses": [
+                "Consulta tu horario del semestre en Cosmos > Estatus de Inscripción > Ver información de inscripción. Accede directamente aquí: https://registro.unab.edu.co/StudentRegistrationSsb/ssb/registration"
+            ]
+        },
+        {
+            "tag": "notas_semestre",
+            "patterns": [
+                "¿Dónde puedo observar las notas de mi semestre?",
+                "Consultar mis notas del semestre",
+                "Notas en Cosmos"
+            ],
+            "responses": [
+                "Puedes ver tus notas en Cosmos > Ver Calificaciones. Selecciona el período que deseas consultar. Accede con tus datos aquí: https://estudiantes.unab.edu.co/StudentSelfService/ssb/studentGrades"
+            ]
+        },
+        {
+            "tag": "matricular_materias",
+            "patterns": [
+                "¿Dónde puedo matricular mis materias?",
+                "Quiero inscribir mis materias para el semestre",
+                "Inscripción de materias en Cosmos"
+            ],
+            "responses": [
+                "Matricula tus materias durante el horario de turnos asignado en MiPortalU > Servicios Para Estudiantes > Turnos. Luego, inscríbelas en Cosmos > Inscribirse a Clases. Usa este enlace para ingresar: https://sso.unab.edu.co:8443/PROD/bwskfreg.P_AltPin"
+            ]
+        },
+        {
+            "tag": "renovacion_icetex",
+            "patterns": [
+                "¿Dónde puedo hacer mi renovación de crédito Icetex?",
+                "Renovar mi crédito Icetex",
+                "Renovación de Icetex en MiPortalU"
+            ],
+            "responses": [
+                "Haz tu renovación de crédito Icetex en MiPortalU > Servicios Para Estudiantes > Renovación de Créditos Icetex. Ingresa aquí: https://miportalu.unab.edu.co/modulos/icetex/index.php"
+            ]
+        },
+        {
+            "tag": "expedicion_certificados",
+            "patterns": [
+              "¿Dónde puedo expedir mis certificados?",
+              "¿Cómo puedo obtener mis certificados?",
+              "¿Dónde puedo conseguir un certificado en la Universidad?"
+            ],
+            "responses": [
+              "Podrás expedir cualquier certificado que necesites en MiPortalU > Servicios Para Estudiantes > Certificados. Todos tienen un costo de $31.000 pesos, y podrás acceder directamente mediante este link con tus datos de estudiante: https://miportalu.unab.edu.co/modulos/recaudoServicios/pagoCertificados.php"
+            ]
+          },
+          {
+            "tag": "derecho_peticion",
+            "patterns": [
+              "¿Dónde puedo enviar un derecho de petición a la Universidad?",
+              "¿Cómo puedo enviar un derecho de petición, queja o reclamo?",
+              "¿Dónde envío mi derecho de petición a la UNAB?"
+            ],
+            "responses": [
+              "Podrás enviar un derecho de petición, queja, reclamo, sugerencia o felicitación mediante el Sistema PQRSF mediante el siguiente link: https://unab.edu.co/pqrsf/, al correo electrónico servicioalcliente@unab.edu.co, o presencialmente en la sede de Lunes a viernes 8:00 a 12:00 m y 2 p.m. a 6 p.m."
+            ]
+          },
+          {
+            "tag": "solicitud_apoyo_financiero",
+            "patterns": [
+              "¿Dónde puedo solicitar un apoyo financiero?",
+              "¿Cómo puedo pedir un apoyo financiero en la Universidad?",
+              "¿Dónde solicito un apoyo financiero directo o externo?"
+            ],
+            "responses": [
+              "Podrás solicitar un apoyo financiero Directo o Externo mediante la plataforma de MiPortalU > Servicios Para Estudiantes > Apoyo Financiero Directo. Podrás acceder directamente mediante este link con tus datos de estudiante: https://miportalu.unab.edu.co/modulos/creditos/index.php"
+            ]
+          },
+          {
+            "tag": "cupon_pago_matricula",
+            "patterns": [
+              "¿Dónde puedo generar mi cupón de pago de matrícula?",
+              "¿Cómo puedo generar mi cupón de matrícula?",
+              "¿Dónde obtengo el cupón de pago para la matrícula?"
+            ],
+            "responses": [
+              "Podrás solicitar tu Cupon de pago de matricula mediante la plataforma de MiPortalU > Servicios Para Estudiantes > Cupones. En esta página podrás generar tu cupón de pago para el semestre o, de lo contrario, cupón de financiación. Puedes entrar mediante el siguiente link con tus datos de estudiante: https://cupones.unab.edu.co/loginCosmos.jsp"
+            ]
+          },
+          {
+            "tag": "solicitar_grado",
+            "patterns": [
+              "¿Cómo puedo solicitar mi grado?",
+              "¿Dónde solicito mi grado?",
+              "¿Qué pasos debo seguir para solicitar mi grado?"
+            ],
+            "responses": [
+              "Puedes solicitar tu grado de pregrado o posgrado mediante MiPortalU > Servicios para Estudiantes > Solicitudes de Grado. Allí tendrás que seguir los pasos que se te solicitan, puedes entrar directamente mediante este link con tus datos de estudiante: https://miportalu.unab.edu.co/modulos/grados/"
+            ]
+          },
+          {
+            "tag": "evento_bibliocine",
+            "patterns": [
+              "¿Cuándo es el evento BiblioCine?",
+              "¿A qué hora se presenta el BiblioCine?",
+              "¿Cuál es la fecha y hora del BiblioCine?"
+            ],
+            "responses": [
+              "El evento BiblioCine 'Todo comenzó por el fin' se llevará a cabo el 15 de noviembre a las 12:00 pm."
+            ]
+          },
+          {
+            "tag": "evento_lectura_infantil_1",
+            "patterns": [
+              "¿Cuándo es el club presencial de lectura infantil 'Me contó un pajarito'?",
+              "¿A qué hora se realiza el club de lectura infantil?",
+              "¿Cuál es la fecha del club presencial de lectura infantil 'Me contó un pajarito'?"
+            ],
+            "responses": [
+              "El club presencial de lectura infantil 'Me contó un pajarito' será el 16 de noviembre a las 10:00 am."
+            ]
+          },
+          {
+            "tag": "evento_lectura_infantil_2",
+            "patterns": [
+              "¿Cuándo es el club presencial de lectura infantil 'Me contó un pajarito'?",
+              "¿A qué hora se realiza el club de lectura infantil el 23 de noviembre?",
+              "¿Cuándo se lleva a cabo el club de lectura infantil el 23 de noviembre?"
+            ],
+            "responses": [
+              "El club presencial de lectura infantil 'Me contó un pajarito' será el 23 de noviembre a las 10:00 am."
+            ]
+          },
+          {
+            "tag": "evento_lectura_infantil_3",
+            "patterns": [
+              "¿Cuándo es el club presencial de lectura infantil 'Me contó un pajarito'?",
+              "¿A qué hora se realiza el club de lectura infantil el 30 de noviembre?",
+              "¿Cuándo se lleva a cabo el club de lectura infantil el 30 de noviembre?"
+            ],
+            "responses": [
+              "El club presencial de lectura infantil 'Me contó un pajarito' será el 30 de noviembre a las 10:00 am."
+            ]
+          },
+          {
+            "tag": "subida_notas",
+            "patterns": [
+              "¿Cuándo se suben las notas de los estudiantes?",
+              "¿A qué hora se suben las notas al sistema?",
+              "¿Cuándo se hace la subida de notas por parte de los profesores?"
+            ],
+            "responses": [
+              "Las notas de los estudiantes serán subidas por los profesores al sistema el 27 de noviembre."
+            ]
+          },
+          {
+            "tag": "eventos_noviembre",
+            "patterns": [
+              "¿Qué eventos habrá en noviembre?",
+              "¿Cuáles son los eventos de noviembre?",
+              "¿Qué actividades se realizarán en noviembre?"
+            ],
+            "responses": [
+              "En noviembre habrá los siguientes eventos:\n\n1. El BiblioCine 'Todo comenzó por el fin' el 15 de noviembre a las 12:00 pm.\n2. El club presencial de lectura infantil 'Me contó un pajarito' el 16 de noviembre a las 10:00 am.\n3. El club presencial de lectura infantil 'Me contó un pajarito' el 23 de noviembre a las 10:00 am.\n4. El club presencial de lectura infantil 'Me contó un pajarito' el 30 de noviembre a las 10:00 am."
+            ]
+          }
+          
     ]
 }
